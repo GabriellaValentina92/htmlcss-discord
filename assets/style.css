@@ -91,57 +91,97 @@ span .download{
     padding: 0.5rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Main
+/* Main*/
 .row{
     display: flex;
-    height: 250px;
+    min-height: 400px;
     justify-content: center;
     align-items: center;
 }
 
-.box-blue{
-    background-color: cyan;
-    height: 200px;
-    width: 400px;
-    border: 1px dashed black;
+.box-img{
+   flex: 0 1 300px;
 }
 
-.box-pink{
-    background-color: pink;
-    height: 200px;
-    width: 200px;
-    border: 1px dashed black;
+
+.box-text{
+    flex: 0 1 200px;
+}
+
+.box-text h2{
+    text-align: center;
+}
+
+.box-text p{
+    font-size: 0.7rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.row-grey{
+    background-color: lightgrey;
 }
 
 .bottom-row{
-    height: 550px;
     display: flex;
+    min-height: 600px;
     justify-content: center;
     align-items: center;
-}
-
-.green-box{
-    width: 600px;
-    height: 500px;
-    background-color: green;
-    border: 1px dashed black;
-}
-
-.row:nth-child(even){
     background-color: lightgrey;
 }
+
+.big-row {
+    width: 700px;
+}
+.bottom-row .big-row{
+    flex: 0 1 auto;
+}
+
+.big-row h2 {
+    font-size: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.big-row p {
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+}
+
+div img{
+    width: 700px;
+}
+
+.big-row h3{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+div a{
+    text-decoration: none;
+    color: white;
+}
+
+.mac-bottom{
+    background-color: rgb(125, 123, 240); 
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+}
+
+.download-bottom {
+    padding-right: 0.5rem;
+}
+
+
+
+
+
+
+
+/* footer */
 
 .footer-row{
     display: flex;
@@ -150,24 +190,42 @@ span .download{
     justify-content: center;
     align-items: center;
     background-color: black;
+    border-bottom: 1px solid grey;
 }
 
-.column-pink{
+.main-column{
     height: 250px;
-    width: 160px;
-    background-color: palevioletred;
-    border: 1px dashed black;
+    flex: 0 1 160px;
+    color: white;
+    font-size: 0.8rem;
 }
 
-.column-lightblu{
+.main-column img{
+    width: 20px;
+    height: 10px;
+}
+
+.chevron-download{
+    color: white;
+    padding-left: 0.4rem;
+    font-size: 0.5rem;
+}
+
+.social-icon{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.column-link{
     height: 250px;
     width: 110px;
-    background-color: aqua;
-    border: 1px dashed white;
+    color: white;
+    font-size: 0.7rem;
+    line-height: 1.5rem;
 }
 
-.border{
-    border: 1px solid grey;
+.column-link .link-section{
+    list-style: none;
 }
 
 .last-row{
@@ -200,4 +258,4 @@ span .download{
 
 .btn1{
     padding-left: 5px;
-} */
+}
