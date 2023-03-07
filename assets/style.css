@@ -1,7 +1,13 @@
+/* General settings*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    font-family: 'Whitney', sans-serif;
 }
 
  /*nav barra del menù*/
@@ -11,7 +17,7 @@ nav{
     height: 60px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(88, 241, 247);
+    background-color: rgb(47, 100, 236);
 }
 
 .menu{
@@ -33,10 +39,10 @@ nav{
 }
 
 /* header*/
-/*
+
 .header-row{
     display: flex;
-    height: 350px;
+    height: 400px;
     justify-content: center;
     align-items: center;
     background-image: url(../img/jumbo.png);
@@ -45,10 +51,59 @@ nav{
 }
 
 .starter-box{
-    width: 500px;
-    height: 100%;
+    color: white;
+    flex: 0 1 500px;
+    text-align: center;
 }
 
+.starter-box h1{
+    padding-bottom: 0.8rem;
+}
+
+.starter-box p{
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+span a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1rem; 
+}
+
+span .download{
+    padding-right: 0.4rem;
+}
+
+.starter-box .mac{
+    font-size: 0.8rem;
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.starter-box .browser{
+    font-size: 0.8rem;
+    color: white;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main
 .row{
     display: flex;
     height: 250px;
@@ -145,4 +200,4 @@ nav{
 
 .btn1{
     padding-left: 5px;
-}*/
+} */
