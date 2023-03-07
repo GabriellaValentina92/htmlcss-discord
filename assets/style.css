@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /*nav barra del menù*/
+
+nav{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(88, 241, 247);
+}
+
+.menu{
+    display: flex;
+    width: 800px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.btn a{
+    display: flex;
+    height: 100%;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* header*/
+/*
+.header-row{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+
+}
+
+.starter-box{
+    width: 500px;
+    height: 100%;
+}
+
+.row{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-blue{
+    background-color: cyan;
+    height: 200px;
+    width: 400px;
+    border: 1px dashed black;
+}
+
+.box-pink{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    border: 1px dashed black;
+}
+
+.bottom-row{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-box{
+    width: 600px;
+    height: 500px;
+    background-color: green;
+    border: 1px dashed black;
+}
+
+.row:nth-child(even){
+    background-color: lightgrey;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.column-pink{
+    height: 250px;
+    width: 160px;
+    background-color: palevioletred;
+    border: 1px dashed black;
+}
+
+.column-lightblu{
+    height: 250px;
+    width: 110px;
+    background-color: aqua;
+    border: 1px dashed white;
+}
+
+.border{
+    border: 1px solid grey;
+}
+
+.last-row{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items:flex-end;
+    background-color: black;
+}
+
+.lightgreen-box{
+    display: flex;
+    width: 600px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.bottom-btn{
+    width: 60px;
+    height: 20px;
+    background-color: palevioletred;
+    border: 1px dashed black;
+}
+
+.logo{
+    padding-left: 10px;
+}
+
+.btn1{
+    padding-left: 5px;
+}*/
