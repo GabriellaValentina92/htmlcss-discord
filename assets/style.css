@@ -181,6 +181,10 @@ div a{
     color: white;
 }
 
+.bg-star{
+    background-image: url(../img/stars.svg);
+}
+
 .mac-bottom{
     font-size: 0.7rem;
     background-color: rgb(125, 123, 240); 
